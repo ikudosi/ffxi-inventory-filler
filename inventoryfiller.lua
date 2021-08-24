@@ -29,13 +29,8 @@ windower.register_event('addon command', function(comm, ...)
         local source_bag
         local destination_bag
 		
-        if command == 'get' then
-            source_bag = specified_bag
-            destination_bag = bag_ids.inventory
-        else
-            destination_bag = specified_bag
-            source_bag = bag_ids.inventory
-        end
+        destination_bag = specified_bag
+        source_bag = bag_ids.inventory
         
         local destination_bag_info = windower.ffxi.get_bag_info(destination_bag)
 		
