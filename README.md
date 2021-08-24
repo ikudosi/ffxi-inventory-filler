@@ -1,2 +1,5 @@
-# ffxi-inventory-filler
-FFXI Inventory Filler
+# FFXI Inventory Filler
+
+Requires Itemizer addon.
+
+Usage example: //ifiller fill "Riftborn Boulder"
